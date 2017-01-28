@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot?v=4.6.3');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.6.3') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.6.3') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.6.3') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.6.3') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.6.3#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 .tp-static-layers {
 	position: absolute;
 	z-index: 505;
@@ -1930,10 +1937,12 @@ img.tp-slider-alternative-image {
 	transition: color 0.3s
 }
 .tp-rightarrow.preview2:after {
+	font-family: 'FontAwesome';
 	content: '\e81e';
 	right: 18px
 }
 .tp-leftarrow.preview2:after {
+	font-family: 'FontAwesome';
 	content: '\e81f';
 	left: 18px
 }
