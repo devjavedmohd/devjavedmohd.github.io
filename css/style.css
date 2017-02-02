@@ -1608,7 +1608,7 @@ aside {
 @media (min-width:768px) {
 	.navbar-default .navbar-nav>li>a {
 		margin: 0;
-		padding: 23px 0;
+		padding: 23.5px 0;
 	}
 }
 .navbar-default .navbar-nav>li>a>i {
@@ -1694,7 +1694,7 @@ aside {
 		display: inline-block;
 		left: 50%;
 		position: absolute;
-		top: 102px;
+		top: 103px;
 	}
 }
 .navbar-nav>li.color-1.dropdown a:after {
@@ -7057,3 +7057,59 @@ footer .color-bar {
 .margtop23 {margin-top:23px;}
 .margtop24 {margin-top:24px;}
 .margtop25 {margin-top:25px;}
+.fontbold {font-weight: bold}
+.font12{ font-size:12px }
+.font14{ font-size:14px }
+.font16{ font-size:16px }
+.font18{ font-size:18px }
+.font20{ font-size:20px }
+.font22{ font-size:22px }
+.font24{ font-size:24px }
+.font26{ font-size:26px }
+.font28{ font-size:28px }
+.font30{ font-size:30px }
+.linheight1{
+	line-height: 1;
+}
+.course {
+	font-family: 'Dosis', sans-serif;
+    text-transform: capitalize;
+}
+.fontDosis {
+	font-family: 'Dosis', sans-serif;
+}
+.proportions {
+    float: left;
+    background-color: #f4f4f4;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.proportions-header {
+	font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    border-bottom: 1px solid #fff;
+}
+.proportions-header span {
+    display: block;
+    padding: 10px;
+}
+.proportions-content {
+    font-size: 14px;
+}
+.sub-portion {
+	font-size: 14px;
+    font-weight: 600;
+}
+.whyveer {
+	font-family: 'Dosis', sans-serif;
+}
+.whyveer p {
+	font-size: 18px;
+	font-weight: 600;
+}
+.whyveer li {
+	list-style: disc;
+	font-size: 16px;
+}
