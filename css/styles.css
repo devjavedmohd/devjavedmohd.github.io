@@ -1,359 +1,18 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	font-family: 'Montserrat Alternates', sans-serif;	
-	font-family: 'Varela Round', sans-serif;
-	font-family: 'PT Sans', sans-serif;
-	font-family: 'Roboto Condensed', sans-serif;
-    min-height: 100%;
-	line-height:1;
-}
-html, body {
-    background: #ccc;
-    width: 100%;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-a, a:hover {
-	cursor: pointer;
-}
-.ie6 img {
-    width: 100%;
-}
-.fluid {
-    clear: both;
-    margin-left: 0;
-    width: 100%;
-    float: left;
-    display: block;
-}
-.fluidList {
-    list-style: none;
-    list-style-image: none;
-    margin: 0;
-    padding: 0;
-}
-.zeroMargin_mobile {
-    margin-left: 0;
-}
-.hide_mobile {
-    display: none;
-}
-header {
-    background-color: #434242;
-    color: #fff;
-}
-.bg-white {
-	background-color:rgb(2, 27, 65);
-	padding-top:10px;
-}
-.logo{
-	width: auto;
-	display: inline-block;
-	font-family: monospace;
-	padding: 5px 0px 5px 10px;
-	border: 2px solid #607D8B;;
-	text-align: center;
-	margin: 10px 0px;
-	float:left;
-}
-.logo a {
-	font-size: 20px;
-	text-transform: uppercase;
-	text-decoration:none;
-	color:#607D8B;
-	transition:all .2s ease-in-out;
-}
-.logo a .name{
-    display: block;
-    font-size: 25px;
-    font-weight: bold;
-    width: 110px;
-    font-family: serif;
-    border-bottom: 2px solid #607D8B;;
-}
-.logo a:hover .name {
-	color: #607D8B;;
-}
-.logo,
-.logo a,
-.logo a .name{
-	transition:all .2s ease-in-out;
-}
-.logo:hover,
-.logo a:hover,
-.logo a .name:hover {
-	color:#fff;
-	border-color:#fff;
-	box-shadow: 0px 1px 1px #000;
-}
-.logo a .surname {
-    font-size: 10px;
-    letter-spacing: 12px;
-    font-weight: bold;
-    border: 0px;
-}
-.navbar-fixed-top {
-    border: 0px;
-    background-color: #434242;
-    color: #fff;
-}
-.top-nav {
-    margin: 0px;
-    padding: 0px;
-    font-size: 14px;
-    color: rgb(255, 255, 255);
-    width: 100%;
-    float: left;
-}
-.top-nav ul {
-    display: inline-block;
-}
-.top-nav ul li {
-    display: inline-block;
-    padding: 0px 5px;
-    margin: 5px 0px;
-    float: left;
-    text-align: center;
-    color: #000;
-}
-.top-nav ul li i {
-    color: #03a9f4;
-	transition:all .2s ease-in-out;
-}
-.top-nav ul li span{
-	color: #fff;
-}
-.top-nav ul li a {
-    color: #000;
-    line-height: 24px;
-    vertical-align: middle;
-	
-}
-.top-nav ul li a img {
-    height: 22px;
-    width: auto;
-    vertical-align: middle;
-    line-height: 40px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-.top-nav ul li a:hover, 
-.top-nav ul li a:link, 
-.top-nav ul li a:visited {
-    color: #000;
-    text-decoration: none;
-}
-.top-nav ul li a:hover i{
-	color: rgb(0, 154, 224);
-}
-.top-nav .left-need-help {
-    float: left;
-}
-.top-nav .right-list {
-    float: right
-}
-.top-nav .right-list li {
-    border-right: 1px solid #efefef;
-    padding: 0 10px 0 0;
-    margin-right: 10px;
-}
-.top-nav .right-list li:last-child {
-    border-right: none;
-    margin-right: 0px;
-	padding-right:0px;
-}
-
-.right-list i {
-    font-size: 18px;
-    margin-left: 5px;
-    color: #000;
-}
-.left-need-help i {
-    font-size: 14px;
-    margin-left: 5px;
-}
-.logo-search-bar {
-    padding: 0px;
-    margin: 0px;
-	min-height:70px;
-}
-.logo-section{
-    min-height:70px;
-}
-.search-form {
-    margin: 0px;
-    padding: 0px;
-    width: 70%;
-    border-radius: 3px;
-    float: left;
-    box-shadow: 0 4px 6px -6px #999;
-}
-
-.search-form a {
-    padding: 0 10px;
-    border: 0px;
-    width: 20%;
-    float: left;
-    height: 40px;
-	font-size: 17px;
-	letter-spacing: 1.5px;
-    text-align: center;
-    background: rgb(3, 169, 244);
-    cursor: pointer;
-    color: #fff;
-    vertical-align: bottom;
-    line-height: 40px;
-	transition:all .2s ease-in-out;
-	border-radius: 0px 3px 3px 0px;
-	text-decoration:none;
-}
-.search-form:hover a {
-	background: rgb(0, 154, 224);
-}
-.search-form input[type="text"] {
-    padding: 0px 15px;
-    border: 1px solid #eee;
-    width: 80%;
-    height: 40px;
-    font-size: 14px;
-	letter-spacing: .5px;
-	font-weight:400;
-	font-family:inherit;
-    outline: none;
-	color:#000;
-	float:left;
-	border-radius: 3px 0px 0px 3px;
-	transition:all .2s ease-in-out;
-}
-.cart {
-    padding: 5.5px 10px;
-    vertical-align: top;
-    float:left;
-    font-size: 26px;
-    border-left: 1px solid #fff;
-}
-.cart-value {
-    line-height: 20px;
-    vertical-align: top;
-    font-size: 14px;
-    font-weight: 600;
-    background: #FFEB3B;
-    padding: 2px 8px 0px 8px;
-    display: inline-block;
-    margin-top: 2px;
-    border-radius: 50%;
-    color: #fff;
-    transition: all .1s ease-in-out;
-    box-shadow: 0px 1px 2px #000;
-}
-.cart-value span {
-	line-height: 22px;
-	padding: 0;
-	font-weight: 400;
-	color: #000;
-}
-
-.account {
-	margin: 0;
-	padding: 0px;
-	width: auto;
-	float: right;
-	background-color: #03a9f4;
-	color: #fff;
-	cursor: pointer;
-	vertical-align: middle;
-	box-shadow: 0 4px 6px -5px #999;
-	border-radius: 3px;
-	transition:all .2s ease-in-out;
-}
-.account:hover {
-	background: rgb(0, 154, 224);
-}
-.account-login {
-    padding: 5.5px 10px;
-    float: left;
-	color: #fff;
-    text-decoration: none;
-}
-.account-login a {
-	color:#fff;
-	text-decoration:none;
-}
-.account-login:hover {
-	color:#fff;
-	text-decoration: none;
-}
-.account-login > span {
-    display: inline-block;
-    text-align: right;
-    vertical-align: top;
-}
-.account-login .sign-in-label {
-    display: block;
-    line-height: 12px;
-    font-size: 12px;
-    font-weight: 400;
-}
-.account-login .sign-in-name {
-	display: block;
-	line-height: 16px;
-	font-size: 14px;
-	font-weight: 600;
-
-}
-
 /*Login form 2 end here*/
-
+.loginform {
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
 .login-form-two {
 	display: table;
 	height: 100%;
 	width:100%;
 	padding: 15px;
-	background: #fff;
-	margin-bottom:20px;
+    background: #fefefe;
+    margin-bottom: 20px;
+    margin-top: 30px;
 	box-shadow: 0px 3px 7px -4px rgba(0, 0, 0, 0.6);
 }
 .login-form-two .left-fields {
@@ -372,11 +31,15 @@ header {
 }
 .fields-2 {
     overflow: hidden;
-    background: #fdfdfd;
     padding: 50px 18%;
     position: relative;
     width: 100%;
-    border: 1px solid #f6f6f6;
+}
+.fields-two {
+    overflow: hidden;
+    padding: 40px 3%;
+    position: relative;
+    width: 100%;
 }
 .login-two .registred {
     color: #a2a2a2;
@@ -436,33 +99,37 @@ header {
     outline: none;
     border-radius: 50px;
     display: inline-block;
-    background-color: #6c3;
+    background-color: #81C784;
     color: #fff;
     font-size: 18px;
-    border: 1px solid #6c3;
+    border: 1px solid #81C784;
     margin: 0px 10px;
     transition: all .2s ease-in-out;
     cursor: pointer;
 }
 .div-login-two-2 a:hover {
-    background-color: #4dad1d;
+    background-color: #4CAF50;
     cursor: pointer;
 	text-decoration:none;
 }
 .div-login-two-2 a + a {
     background-color: #fff;
-    border: 1px solid #6c3;
-    color: #6c3;
+    border: 1px solid #84bed6;
+    color: #84bed6;
     cursor: pointer;
     transition: all .2s ease-in-out;
     background-color: white;
 }
 .div-login-two-2 a + a:hover {
-    background-color: #4dad1d;
-    border: 1px solid #4dad1d;
+    background-color: #84bed6;
+    border: 1px solid #84bed6;
     color: #fff;
     cursor: pointer;
 	text-decoration:none;
+}
+.registred .name {
+    font-size: 20px;
+    color: #000;
 }
 @media (max-width: 1024px){
 	.div-login-two-2 a {
@@ -572,7 +239,7 @@ a.login-gp {
 }
 .login-form-two label, button {
     color:#777;
-    margin: 25px 0;
+    margin: 15px 0;
     display: block;
     font-size: 12px;
     line-height: 16px;
@@ -1457,15 +1124,6 @@ header .navbar {
 .search-middle input {
 	border: 0px;
 }
-.navbar-brand {
-	height: 60px;
-	padding: 10px 15px;
-}
-.navbar-nav>li>a {
-	font-size: 16px;
-    padding: 20px 10px;
-    font-weight: 400;   
-}
 
 /* Bootstrap Slider */
 .carousel-control.left,
@@ -1654,20 +1312,6 @@ header .navbar {
 .right-skew {
     position: relative;
 }
-/* .right-skew:before {
-    z-index: 0;
-    content: '';
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: -40px;
-    display: block;
-    width: 85px;
-    background: #fff;
-    -webkit-transform: skew(-10deg);
-    -ms-transform: skew(-10deg);
-    transform: skew(-10deg);
-} */
 .box {
     float: left;
     width: 50%;
@@ -2351,12 +1995,18 @@ a.sell-games {
 .content-head {
     text-align: center;
     padding: 30px;
-	background:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgba(250,250,250, .5)
 }
 .content-head h1 {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 20px;
+    display: block;
+    width: 100%;
 }
 .content-head > span {
     font-size: 20px;
@@ -2364,6 +2014,9 @@ a.sell-games {
     color: #777;
     display: inline-block;
     margin-bottom: 20px;
+    padding: 7px 10px;
+    background: #fff;
+    box-shadow: 0 3px 7px -5px #999;
 }
 .content-head .login-by {
     margin-top: 10px;
@@ -2484,19 +2137,13 @@ a.sell-games {
     border: 1px solid  #00a651;
 }
 .content-account {
-    padding: 0 0 0 15px;
-    border-top: 1px solid #efefef;
+    padding: 0;
 	background-color:#f8f8f8;
 	margin-bottom: 20px;
-	box-shadow: 0px 3px 7px -4px rgba(0, 0, 0, 0.6);
 }
 .account-tabs {
     margin:0px;
     padding:15px 0 0 0px;
-}
-.account-details {
-    border-left: 1px solid #efefef;
-	background: #fcfcfc;
 }
 .account-tabs ul li a{
 	padding: 8px 15px;
@@ -2584,17 +2231,16 @@ a.sell-games {
     margin: 0px 0px 20px 0px;
     border-radius: 3px;
 	background: #fff;
+    margin-top: 15px;
 }
 .details-content .form-group {
     font-size: 16px;
     margin: 10px 0px;
 }
 .details-content .form-group label {
-    color: #bbb;
-	font-size: 14px;
-	border-bottom: 1px solid rgba(22,22,22,0.1);
-	padding-bottom: 2px;
-	margin-bottom: 6px;
+    color: #505050;
+    font-size: 13px;
+    font-weight: 600;
 }
 .details-content .first-name, 
 .details-content .last-name, 
@@ -8369,8 +8015,30 @@ ul.list-panel.show {
     width: auto;
     display: inline-block;
 }
-
-
+.referals {
+    background:#fff;
+    padding:10px;
+}
+.details-content h1{
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #555555;
+    margin: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+.details-content .col-xs-12 {
+    transition: all .2s ease-in-out
+}
+.details-content .col-xs-12:hover {
+    background-color: #f7f7f7;
+}
+.founder-details {
+    font-size: 14px;
+    display: block;
+    padding: 0 15px;
+}
 /*Sell games ends*/
 
 .item-cover {
