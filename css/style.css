@@ -7113,3 +7113,400 @@ footer .color-bar {
 	list-style: disc;
 	font-size: 16px;
 }
+
+.login-form-two {
+    display: table;
+    height: 100%;
+    width: 100%;
+    padding: 15px;
+    background: #fefefe;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    box-shadow: 0px 3px 7px -4px rgba(0, 0, 0, 0.6);
+}
+.login-form-two .left-fields {
+    width: 50%;
+    display: table-cell;
+}
+
+.fields-2 {
+    overflow: hidden;
+    padding: 50px 18%;
+    position: relative;
+    width: 100%;
+}
+.fields-two {
+    overflow: hidden;
+    padding: 40px 3%;
+    position: relative;
+    width: 100%;
+}
+.login-two .registred {
+    color: #a2a2a2;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.registred .name {
+    font-size: 20px;
+    color: #000;
+}
+.loginform {
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.login-two .login-text-line {
+    text-align: center;
+}
+
+.login-text-line {
+    color: #6f6f6f;
+    font-size: 16px;
+    line-height: 16px;
+    margin: 20px 0;
+}
+.div-login-two {
+    margin-bottom: 15px;
+}
+.login-form-two .email-address, .login-form-two .login-password {
+    width: 100%;
+    border: 1px solid #f4f4f4;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: normal;
+    border-radius: 3px;
+    margin-top: 5px;
+    box-shadow: 0px 3px 7px -4px rgba(0, 0, 0, 0.6);
+}
+
+.login-form-two input:focus {
+    outline:0;
+}
+.login-form-two .email-address, 
+.login-form-two .login-password {
+    width: 100%;
+    border: 1px solid #f4f4f4;
+    padding: 10px;
+	font-size:14px;
+	font-weight:normal;
+	border-radius: 3px;
+	margin-top:5px;
+	box-shadow: 0px 3px 7px -4px rgba(0, 0, 0, 0.6);
+}
+.login-form-two label, 
+.login-form-two button {
+    color:#777;
+    margin: 15px 0;
+    display: block;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: left;
+}
+.login-form-two .signup label, 
+.login-form-two .signup button {
+    color:rgb(191, 191, 191);
+    margin: 10px 0;
+    font-size: 10px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: left;
+}
+.login-form-two .signup button {
+    font-size: 12px;
+    color: #fff;
+    cursor: pointer;
+}
+.login-form-two .butten-set {
+    width: 100%;
+    line-height: 34px;
+}
+.login-form-two .button {
+    padding: 10px 30px;
+    width: auto;
+    outline: none;
+    border-radius: 3px;
+    font-size: 12px;
+    background-color: #6c3;
+    border: 0;
+    color: #fff;
+    margin: 0px;
+    display: inline-block;
+    transition: all .2s ease-in-out;
+}
+.div-login-two .email-address, 
+.div-login-two .login-password {
+    width: 100%;
+    border: 0;
+    padding: 10px;
+    margin: 0px;
+    text-align: left;
+    font-size: 14px;
+}
+.login-two .forgot-two {
+    font-size: 13px;
+    text-decoration: none;
+    padding: 15px 0;
+    float: right;
+    color: #777;
+}
+.buttons-2 {
+    text-align: center;
+    margin: 50px 0px 0 0;
+}
+.div-login-two-2 a {
+    padding: 15px 50px;
+    width: auto;
+    outline: none;
+    border-radius: 50px;
+    display: inline-block;
+    background-color: #81C784;
+    color: #fff;
+    font-size: 18px;
+    border: 1px solid #81C784;
+    margin: 0px 10px;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+.div-login-two-2 a + a {
+    background-color: #fff;
+    border: 1px solid #84bed6;
+    color: #84bed6;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    background-color: white;
+}
+.or-login {
+    padding: 40px 0px;
+    text-align: center;
+    font-size: 14px;
+}
+.or-login span {
+    color: #676767;
+    font-size: 14px;
+}
+.login-options {
+    margin-top: 20px;
+}
+a.login-tw {
+    font-size: 36px;
+    color: #5ec9ff;
+}
+a.login-fb {
+    font-size: 36px;
+    color: #3F51B5;
+}
+a.login-gp {
+    font-size: 36px;
+    color: rgb(255, 82, 74);
+}
+.or-login span.last-s {
+    margin-top: 20px;
+    display: block;
+    line-height: 20px;
+}
+
+/*After login content head*/
+.content-head {
+    text-align: center;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgba(250,250,250, .5);
+}
+.content-head h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    display: block;
+    width: 100%;
+}
+.content-head > span {
+    font-size: 20px;
+    font-weight: 400;
+    color: #777;
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 7px 10px;
+    background: #fff;
+    box-shadow: 0 3px 7px -5px #999;
+}
+
+.details-head {
+    display:flex;
+    float: left;
+    width: 100%;
+    padding: 17px 0px;
+}
+.details-head h1 {
+    display: inline-block;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #555555;
+}
+.list-of-founders{
+
+}
+
+/*User Details*/
+
+.details-content {
+    width: 100%;
+    font-weight: 400;
+    padding: 15px 5px;
+    border: 1px solid #efefef;
+    float: left;
+    margin: 0px 0px 20px 0px;
+    border-radius: 3px;
+    background: #fff;
+    margin-top: 15px;
+}
+
+.details-content h1 {
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #555555;
+    margin: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+.founder-details {
+    font-size: 14px;
+    display: block;
+    padding: 0 15px;
+}
+.details-content .form-group {
+    font-size: 16px;
+    margin: 10px 0px;
+}
+.details-content .col-xs-12 {
+    transition: all .2s ease-in-out;
+}
+.details-content .form-group label {
+    color: #505050;
+    font-size: 13px;
+    font-weight: 600;
+}
+.details-content .first-name, 
+.details-content .last-name, 
+.details-content .gender, 
+.details-content .dob, 
+.details-content .mobile, 
+.details-content .location, 
+.details-content .email {
+    font-size: 17px;
+}
+
+.referals {
+    background: #fff;
+    padding: 10px 0;
+}
+.referals-head {
+    float: left;
+    width: 100%;
+    padding: 17px 0px;
+}
+.referals h1 {
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #555555;
+}
+.details-head .edit-save {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.details-head .edit-save .save,
+.details-head .edit-save .edit {
+    padding:8px 20px;
+    background-color: #0783E2;
+    text-align: center;
+    color: #fff;
+    margin: 0px 10px;
+    display: inline-block;  
+    text-decoration: none;
+    border-radius: 3px;
+    -webkit-transition: all .2s ease-in-out ;
+    -moz-transition: all .2s ease-in-out ;
+    transition: all .2s ease-in-out ;
+}
+.details-head .edit-save .edit {
+    background: #777;
+    color:#fff;
+    text-decoration: none;
+	-webkit-transition: all .2s ease-in-out ;
+    -moz-transition: all .2s ease-in-out ;
+    transition: all .2s ease-in-out ;
+}
+.details-head .edit-save .save:hover {
+    background-color: #3b5998;
+}
+.details-head .edit-save .edit:hover {
+    color: #fff;
+	background: #555;
+}
+
+.content-forgot {
+    margin-top: 30px;
+    padding: 0;
+    background-color: #f1f1f1;
+    margin-bottom: 20px;
+}
+.content-forgot .forgot {
+    background-color: #f9f9f9;
+    padding: 0px;
+}
+.content-forgot .forgot h1 {
+    font-size: 26px;
+    line-height: 36px;
+    padding: 10px 10px;
+    background-color: #F44336;
+    margin-bottom: 25px;
+    font-weight: 400;
+    vertical-align: middle;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+.content-forgot .forgot .reset-text {
+    padding: 0px 30px 10px 30px;
+    font-weight: 400;
+}
+.content-forgot .forgot form {
+    padding: 15px 30px 25px 30px;
+}
+.content-forgot .forgot form label {
+    font-weight: 600;
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+.content-forgot .forgot form .btn-submit {
+    padding: 7px 25px;
+    border: 1px solid #F44336;
+    color: #F44336;
+    transition: all .2s ease-in-out;
+}
+.content-forgot .forgot .back-login {
+    padding: 15px;
+    background: #efefef;
+}
+.content-forgot .forgot .back-login a {
+    font-size: 18px;
+    color: #999;
+    font-weight: 400;
+    transition: all .2s ease-in-out;
+    text-decoration: none;
+}
