@@ -705,3 +705,149 @@ footer {
   }
 }
 
+@media (max-width:768px) {
+  .container{
+    width: 100%;
+    &.skills-stack {
+      .latest-work{
+        padding: 50px 25px;
+      }
+    }
+  }
+  .about-content{
+    padding: 15px;
+    flex-wrap: wrap;
+    .about-details {
+      order: 2;
+      width: 100%;
+      margin: 0px auto;
+      text-align: left;
+      padding-right: 0px;
+      .title{
+        text-align: center;
+        font-size: 32px;
+        line-height: 40px;
+        span{
+          font-size: 24px;
+          line-height: 30px;
+          width: 100%;
+          display: inline-block;
+        }
+      }
+      .about-exp{
+        text-align: center;
+        h1{
+          font-size: 40px;
+          line-height: 1.24;
+        }
+      }
+      .about-more{
+        text-align: center;
+        font-size: 20px;
+      }
+      .connect {
+        justify-content: center;
+        text-align: center;
+        .connect-about{
+          padding: 8px 15px;
+        }
+      }
+    }
+    .pic-about{
+      width: 100%;
+      order: 1;
+      height: 400px;
+      .one-bg{
+        top: 0;
+      }
+      .two-bg{
+
+      }
+      .three-bg{
+        bottom: 40px;
+      }
+    }
+  }
+  .latest-work {
+    text-align: center;
+    padding: 15px;
+    margin-top: 80px;
+    .what-i-do {
+      .what-i-do-info {
+        flex-wrap: wrap;
+        p{
+          padding: 0px;
+        }
+        .info-cards-wrapper{
+          max-width:100%;
+          grid-template-columns: 1fr;
+        }
+        .what-i-do-info-art{
+          width: calc(100% - 50px);
+          margin: 0px;
+        }
+      }
+    }
+    .work-grid{
+      flex-wrap: wrap;
+      justify-content: center;
+      .work-left{
+        margin-bottom: 40px;
+      }
+    }
+  }
+  .skills-stack{
+    .latest-work {
+      margin-top: 0px;
+      .latest-head{
+        margin-bottom: 40px;
+      }
+      .horizontal-bars{
+        flex-wrap: wrap;
+        .skills-sections{
+          text-align: center;
+          width: 100%;
+          &:last-child{
+            margin-bottom: 0;
+            .stack{
+              ul{
+                li{
+                  margin-bottom: 0px;
+                }
+              }
+            }
+          }
+          .stack{
+            text-align: center;
+            padding: 0 20px;
+            ul{
+              flex-wrap: wrap;
+              text-align: center;
+              padding: 0 40px;
+              justify-content: center;
+              li{
+                margin: 0 8px 30px 8px;
+                img{
+                  margin: 0;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  footer {
+    .footer-content{
+      grid-template-columns: 1fr;
+      grid-gap: 20px;
+      text-align: center;
+      .footer-left{}
+      .footer-center{}
+      .footer-right{
+        margin-top: 20px;
+        justify-content: center;
+      }
+    }
+  }
+}

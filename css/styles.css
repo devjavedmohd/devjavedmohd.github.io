@@ -70,14 +70,6 @@
   text-transform: lowercase;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: LinetoLight;
-}
 h1 .strong,
 h2 .strong,
 h3 .strong,
@@ -1120,6 +1112,140 @@ footer .footer-content .footer-right a.be img {
 }
 .footer-brand .footer-brand-in:hover img {
   filter: brightness(1) invert(0);
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+  .container.skills-stack .latest-work {
+    padding: 50px 25px;
+  }
+
+  .about-content {
+    padding: 15px;
+    flex-wrap: wrap;
+  }
+  .about-content .about-details {
+    order: 2;
+    width: 100%;
+    margin: 0px auto;
+    text-align: left;
+    padding-right: 0px;
+  }
+  .about-content .about-details .title {
+    text-align: center;
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .about-content .about-details .title span {
+    font-size: 24px;
+    line-height: 30px;
+    width: 100%;
+    display: inline-block;
+  }
+  .about-content .about-details .about-exp {
+    text-align: center;
+  }
+  .about-content .about-details .about-exp h1 {
+    font-size: 40px;
+    line-height: 1.24;
+  }
+  .about-content .about-details .about-more {
+    text-align: center;
+    font-size: 20px;
+  }
+  .about-content .about-details .connect {
+    justify-content: center;
+    text-align: center;
+  }
+  .about-content .about-details .connect .connect-about {
+    padding: 8px 15px;
+  }
+  .about-content .pic-about {
+    width: 100%;
+    order: 1;
+    height: 400px;
+  }
+  .about-content .pic-about .one-bg {
+    top: 0;
+  }
+  .about-content .pic-about .three-bg {
+    bottom: 40px;
+  }
+
+  .latest-work {
+    text-align: center;
+    padding: 15px;
+    margin-top: 80px;
+  }
+  .latest-work .what-i-do .what-i-do-info {
+    flex-wrap: wrap;
+  }
+  .latest-work .what-i-do .what-i-do-info p {
+    padding: 0px;
+  }
+  .latest-work .what-i-do .what-i-do-info .info-cards-wrapper {
+    max-width: 100%;
+    grid-template-columns: 1fr;
+  }
+  .latest-work .what-i-do .what-i-do-info .what-i-do-info-art {
+    width: calc(100% - 50px);
+    margin: 0px;
+  }
+  .latest-work .work-grid {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .latest-work .work-grid .work-left {
+    margin-bottom: 40px;
+  }
+
+  .skills-stack .latest-work {
+    margin-top: 0px;
+  }
+  .skills-stack .latest-work .latest-head {
+    margin-bottom: 40px;
+  }
+  .skills-stack .latest-work .horizontal-bars {
+    flex-wrap: wrap;
+  }
+  .skills-stack .latest-work .horizontal-bars .skills-sections {
+    text-align: center;
+    width: 100%;
+  }
+  .skills-stack .latest-work .horizontal-bars .skills-sections:last-child {
+    margin-bottom: 0;
+  }
+  .skills-stack .latest-work .horizontal-bars .skills-sections:last-child .stack ul li {
+    margin-bottom: 0px;
+  }
+  .skills-stack .latest-work .horizontal-bars .skills-sections .stack {
+    text-align: center;
+    padding: 0 20px;
+  }
+  .skills-stack .latest-work .horizontal-bars .skills-sections .stack ul {
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 0 40px;
+    justify-content: center;
+  }
+  .skills-stack .latest-work .horizontal-bars .skills-sections .stack ul li {
+    margin: 0 8px 30px 8px;
+  }
+  .skills-stack .latest-work .horizontal-bars .skills-sections .stack ul li img {
+    margin: 0;
+  }
+
+  footer .footer-content {
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    text-align: center;
+  }
+  footer .footer-content .footer-right {
+    margin-top: 20px;
+    justify-content: center;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
