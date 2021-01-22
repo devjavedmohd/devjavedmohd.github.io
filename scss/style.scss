@@ -830,6 +830,11 @@ footer {
                 img{
                   margin: 0;
                 }
+				&:hover{
+					&::before {
+						width: 100%;
+					}
+				}
               }
             }
           }

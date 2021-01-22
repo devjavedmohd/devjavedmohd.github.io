@@ -1236,6 +1236,9 @@ footer .footer-content .footer-right a.be img {
   .skills-stack .latest-work .horizontal-bars .skills-sections .stack ul li img {
     margin: 0;
   }
+  .skills-stack .latest-work .horizontal-bars .skills-sections .stack ul li:hover::before {
+    width: 100%;
+  }
 
   footer .footer-content {
     grid-template-columns: 1fr;
