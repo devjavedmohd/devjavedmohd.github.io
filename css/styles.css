@@ -1189,6 +1189,9 @@ footer .footer-content .footer-right a.be img {
     max-width: 100%;
     grid-template-columns: 1fr;
   }
+  .latest-work .what-i-do .what-i-do-info .info-cards-wrapper .info-cards {
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.05);
+  }
   .latest-work .what-i-do .what-i-do-info .what-i-do-info-art {
     width: calc(100% - 50px);
     margin: 0px;
@@ -1213,9 +1216,11 @@ footer .footer-content .footer-right a.be img {
   .skills-stack .latest-work .horizontal-bars .skills-sections {
     text-align: center;
     width: 100%;
+    border-bottom: 1px solid #eee;
   }
   .skills-stack .latest-work .horizontal-bars .skills-sections:last-child {
     margin-bottom: 0;
+    border-bottom: unset;
   }
   .skills-stack .latest-work .horizontal-bars .skills-sections:last-child .stack ul li {
     margin-bottom: 0px;

@@ -781,6 +781,9 @@ footer {
         .info-cards-wrapper{
           max-width:100%;
           grid-template-columns: 1fr;
+          .info-cards{
+            box-shadow: 0px 2px 7px rgb(0 0 0 / 5%);
+          }
         }
         .what-i-do-info-art{
           width: calc(100% - 50px);
@@ -807,8 +810,10 @@ footer {
         .skills-sections{
           text-align: center;
           width: 100%;
+          border-bottom: 1px solid #eee;
           &:last-child{
             margin-bottom: 0;
+            border-bottom: unset;
             .stack{
               ul{
                 li{
