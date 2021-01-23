@@ -1183,10 +1183,13 @@ footer .footer-content .footer-right a.be img {
     bottom: 40px;
   }
 
+  .latest-head {
+    text-align: center;
+  }
+
   .latest-work {
     text-align: center;
     padding: 15px;
-    margin-top: 80px;
   }
   .latest-work .what-i-do .what-i-do-info {
     flex-wrap: wrap;
@@ -1213,11 +1216,13 @@ footer .footer-content .footer-right a.be img {
     margin-bottom: 40px;
   }
 
+  .skills-stack .latest-head {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-align: center;
+  }
   .skills-stack .latest-work {
     margin-top: 0px;
-  }
-  .skills-stack .latest-work .latest-head {
-    margin-bottom: 40px;
   }
   .skills-stack .latest-work .horizontal-bars {
     flex-wrap: wrap;

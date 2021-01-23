@@ -775,10 +775,12 @@ footer {
       }
     }
   }
+  .latest-head{
+    text-align: center;
+  }
   .latest-work {
     text-align: center;
     padding: 15px;
-    margin-top: 80px;
     .what-i-do {
       .what-i-do-info {
         flex-wrap: wrap;
@@ -807,11 +809,13 @@ footer {
     }
   }
   .skills-stack{
+    .latest-head{
+      margin-bottom: 0px;
+      margin-top: 0px;
+      text-align: center;
+    }
     .latest-work {
       margin-top: 0px;
-      .latest-head{
-        margin-bottom: 40px;
-      }
       .horizontal-bars{
         flex-wrap: wrap;
         .skills-sections{
