@@ -437,6 +437,11 @@ h6 .strong {
   background-color: #fff;
   border-radius: 6px;
 }
+.container.skills-stack .latest-head {
+  padding: 20px 25px 0px 25px;
+  width: calc(100% - 50px);
+  margin-bottom: 0;
+}
 .container.skills-stack .latest-work {
   padding: 20px 25px;
 }
@@ -660,18 +665,16 @@ h6 .strong {
   color: #333;
 }
 
-.latest-work {
-  padding: 100px 0 0 0;
-}
-.latest-work .latest-head {
+.latest-head {
   text-transform: uppercase;
   color: #0089ff;
   font-size: 12px;
   letter-spacing: 1px;
   margin-bottom: 15px;
   width: 100%;
+  margin-top: 100px;
 }
-.latest-work .latest-head h2 {
+.latest-headh2 {
   border-bottom: 1px dotted #0089ff;
   width: auto;
   font-family: LinetoLight;
@@ -679,10 +682,15 @@ h6 .strong {
   display: inline;
   letter-spacing: 1px;
 }
-.latest-work .what-i-do h3 {
+
+.latest-work {
+  padding: 0;
+}
+.latest-work h3 {
   font-size: 32px;
   margin-bottom: 15px;
   font-family: LinetoBlack;
+  line-height: 34px;
 }
 .latest-work .what-i-do .what-i-do-info {
   display: flex;
@@ -811,6 +819,7 @@ h6 .strong {
 .latest-work .work-grid {
   display: flex;
   justify-content: space-between;
+  margin-top: 30px;
 }
 .latest-work .work-grid .work-left {
   margin-bottom: 100px;

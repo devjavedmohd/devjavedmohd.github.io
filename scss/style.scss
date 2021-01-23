@@ -26,6 +26,11 @@ $animation-delay: .7s;
   &.skills-stack{
     background-color: #fff;
     border-radius: 6px;
+    .latest-head{
+      padding: 20px 25px 0px 25px;
+      width: calc(100% - 50px);
+      margin-bottom: 0;
+    }
     .latest-work{
       padding: 20px 25px;
     }
@@ -245,31 +250,33 @@ $animation-delay: .7s;
     }
   }
 }
-
-.latest-work{
-  padding: 100px 0 0 0;
-  .latest-head{
-    text-transform: uppercase;
-    color: #0089ff;
+.latest-head{
+  text-transform: uppercase;
+  color: #0089ff;
+  font-size: 12px;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+  width: 100%;
+  margin-top: 100px;
+  &h2{
+    border-bottom: 1px dotted  #0089ff;
+    width: auto;
+    font-family: LinetoLight;
     font-size: 12px;
+    display: inline;
     letter-spacing: 1px;
+  }
+}
+.latest-work{
+  padding: 0;
+  h3{
+    font-size: 32px;
     margin-bottom: 15px;
-    width: 100%;
-    h2{
-      border-bottom: 1px dotted  #0089ff;
-      width: auto;
-      font-family: LinetoLight;
-      font-size: 12px;
-      display: inline;
-      letter-spacing: 1px;
-    }
+    font-family: LinetoBlack;
+    line-height: 34px;
   }
   .what-i-do{
-    h3{
-      font-size: 32px;
-      margin-bottom: 15px;
-      font-family: LinetoBlack;
-    }
+
     .what-i-do-info{
       display: flex;
       margin-bottom: 100px;
@@ -404,7 +411,7 @@ $animation-delay: .7s;
   .work-grid{
     display: flex;
     justify-content: space-between;
-
+    margin-top: 30px;
     .work-left{
       margin-bottom: 100px;
       position: relative;
