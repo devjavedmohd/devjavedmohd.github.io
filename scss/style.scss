@@ -442,7 +442,7 @@ $animation-delay: .7s;
           margin-bottom: 10px;
         }
         .left-head-title{
-          height: 100%;
+          height: calc(100% - 62px);
           position: relative;
 
           .about-project-title{

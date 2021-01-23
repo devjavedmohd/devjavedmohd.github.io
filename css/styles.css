@@ -852,7 +852,7 @@ h6 .strong {
   margin-bottom: 10px;
 }
 .latest-work .work-grid .work-left .work-type .left-head-title {
-  height: 100%;
+  height: calc(100% - 62px);
   position: relative;
 }
 .latest-work .work-grid .work-left .work-type .left-head-title .about-project-title {
