@@ -434,17 +434,17 @@ $animation-delay: .7s;
         border-radius: 6px;
         transition: all .5s ease-out;
 
+        .number{
+          font-size: 52px;
+          font-family: 'LinetoLight';
+          color: #c8ccd7;
+          line-height: 1;
+          margin-bottom: 10px;
+        }
         .left-head-title{
           height: 100%;
           position: relative;
 
-          .number{
-            font-size: 52px;
-            font-family: 'LinetoLight';
-            color: #c8ccd7;
-            line-height: 1;
-            margin-bottom: 10px;
-          }
           .about-project-title{
             font-family: 'LinetoBold';
             color: #000;

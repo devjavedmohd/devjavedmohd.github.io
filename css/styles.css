@@ -844,16 +844,16 @@ h6 .strong {
   border-radius: 6px;
   transition: all 0.5s ease-out;
 }
-.latest-work .work-grid .work-left .work-type .left-head-title {
-  height: 100%;
-  position: relative;
-}
-.latest-work .work-grid .work-left .work-type .left-head-title .number {
+.latest-work .work-grid .work-left .work-type .number {
   font-size: 52px;
   font-family: "LinetoLight";
   color: #c8ccd7;
   line-height: 1;
   margin-bottom: 10px;
+}
+.latest-work .work-grid .work-left .work-type .left-head-title {
+  height: 100%;
+  position: relative;
 }
 .latest-work .work-grid .work-left .work-type .left-head-title .about-project-title {
   font-family: "LinetoBold";
