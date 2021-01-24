@@ -1,6 +1,9 @@
 @import "_components.scss";
 
-
+dl, ol, ul{
+  margin: 0px;
+  padding: 0px;
+}
 // colors
 $background-color: #1a1a1a;
 $progressbar-title-color: #fff;
@@ -11,30 +14,32 @@ $purple: #9b59b6;
 $orange: #ffa500;
 $green: #27ae60;
 $animation-delay: .7s;
-
+h1, h2, h3, h4, h5, h6 {
+  font-weight: unset;
+}
 @mixin border-radius($radius){
   -webkit-border-radius: $radius;
   -moz-border-radius: $radius;
   -ms-border-radius: $radius;
   border-radius: $radius;
 }
-
+.skills-stack{
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 50px 0px;
+  .latest-head{
+    padding: 0;
+    width: 100%;
+    margin-top: 0;
+  }
+  .latest-work{
+    padding: 20px 0 0 0;
+  }
+}
 .container {
   max-width: 1170px;
   width: 100%;
   margin: 0 auto;
-  &.skills-stack{
-    background-color: #fff;
-    border-radius: 6px;
-    .latest-head{
-      padding: 20px 25px 0px 25px;
-      width: calc(100% - 50px);
-      margin-bottom: 0;
-    }
-    .latest-work{
-      padding: 20px 25px;
-    }
-  }
 }
 .main-work {
   max-width: 1024px;
@@ -208,7 +213,7 @@ $animation-delay: .7s;
       }
     }
     .about-exp {
-      font-family: "Times New Roman";
+      font-family: LinetoBlack;
       margin: 0px auto 20px auto;
       h1{
         font-size: 62px;
@@ -258,6 +263,7 @@ $animation-delay: .7s;
   margin-bottom: 15px;
   width: 100%;
   margin-top: 100px;
+  font-family: 'LinetoBold';
   &h2{
     border-bottom: 1px dotted  #0089ff;
     width: auto;
@@ -360,7 +366,6 @@ $animation-delay: .7s;
     justify-content: space-between;
 
     .skills-sections{
-      margin-bottom: 30px;
       h3{
         font-size: 32px;
         font-family: 'LinetoBlack';
@@ -378,7 +383,7 @@ $animation-delay: .7s;
             img {
               height: 32px;
               margin: 0 10px 0 0;
-              opacity: .4;
+              opacity: .7;
               transition: all .2s ease-in-out;
               &:hover{
                 opacity: 1;
@@ -712,14 +717,93 @@ footer {
   }
 }
 
+.received{
+  background-color: #00a3e0;
+  padding: 50px 0;
+  .latest-head{
+    margin: 0px 0 15px 0;
+    color: #fff;
+  }
+  .latest-work{
+    h3{
+      color: white;
+    }
+  }
+  .rec{
+    background: transparent;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    .rec-item{
+      text-align: center;
+      min-height: 280px;
+      .rec-caption{
+        color:#fff;
+        max-width: 480px;
+        width: 100%;
+        .rec-comment{
+          order: 2;
+          position: relative;
+          width: calc(100% - 62px);
+          text-align: left;
+          margin: 25px 0 25px 62px;
+          h6{
+            font-size: 24px;
+            font-family: 'LinetoLight';
+            margin-bottom: 0px;
+            line-height: 30px;
+            padding: 15px 20px;
+            background: #fff;
+            color: #000;
+            border-radius: 6px;
+          }
+          &:before{
+            content: "";
+            width: 50px;
+            height: 47px;
+            position: absolute;
+            left: -60px;
+            background-image: url('../image/icon-quo.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+          }
+        }
+        .rec-author{
+          order: 1;
+          display: flex;
+          justify-content: flex-end;
+          .rec-img{
+            width: 100px;
+            height: 100px;
+            overflow: hidden;
+            border-radius: 50%;
+            margin: 10px auto;
+            img{
+              max-width: 100%;
+            }
+          }
+          .rec-details{
+            width: 100%;
+            h5{
+              font-size: 18px;
+              line-height: 22px;
+            }
+            p{
+              margin: 0px;
+              padding: 0px;
+              font-size: 14px;
+              line-height: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
 @media (max-width:768px) {
   .container{
     width: 100%;
-    &.skills-stack {
-      .latest-work{
-        padding: 50px 25px;
-      }
-    }
   }
   .about-content{
     padding: 15px;
@@ -777,6 +861,10 @@ footer {
   }
   .latest-head{
     text-align: center;
+    margin-top: 40px;
+  }
+  .whatido{
+    margin-top: 100px;
   }
   .latest-work {
     text-align: center;
@@ -784,6 +872,7 @@ footer {
     .what-i-do {
       .what-i-do-info {
         flex-wrap: wrap;
+        margin-bottom: 40px;
         p{
           padding: 0px;
         }
@@ -816,12 +905,17 @@ footer {
     }
     .latest-work {
       margin-top: 0px;
+
       .horizontal-bars{
         flex-wrap: wrap;
         .skills-sections{
           text-align: center;
           width: 100%;
           border-bottom: 1px solid #eee;
+          margin-top: 20px;
+          &:first-child{
+            margin-top: 10px;
+          }
           &:last-child{
             margin-bottom: 0;
             border-bottom: unset;
@@ -868,6 +962,49 @@ footer {
       .footer-right{
         margin-top: 20px;
         justify-content: center;
+      }
+    }
+  }
+
+  .received{
+    .rec{
+      .rec-item{
+        .rec-caption{
+          .rec-comment{
+            width: calc(100% - 42px);
+            margin: 25px 0 25px 42px;
+            h6{
+              font-size: 16px;
+              line-height: 20px;
+              padding: 8px 12px;
+            }
+            &:before{
+              content: "";
+              width: 30px;
+              height: 30px;
+              left: -40px;
+            }
+          }
+          .rec-author{
+            .rec-img{
+              width: 100px;
+              height: 100px;
+              overflow: hidden;
+              border-radius: 50%;
+              margin: 10px auto;
+            }
+            .rec-details{
+              h5{
+                font-size: 16px;
+                line-height: 20px;
+              }
+              p{
+                font-size: 12px;
+                line-height: 18px;
+              }
+            }
+          }
+        }
       }
     }
   }
