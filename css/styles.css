@@ -775,14 +775,41 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 6px;
   background: #fff;
 }
+.latest-work .bottom-note {
+  line-height: 24px;
+}
 .latest-work .horizontal-bars {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+}
+.latest-work .horizontal-bars .skills-sections {
+  padding: 20px;
+  border: 1px solid #eee;
+  border-radius: 6px;
+  margin-bottom: 30px;
+  transition: all 0.5s ease-in-out;
+  color: #333;
+}
+.latest-work .horizontal-bars .skills-sections:hover {
+  box-shadow: 0px 4px 9px 2px rgba(0, 0, 0, 0.05);
+  transform: translateY(-10px);
 }
 .latest-work .horizontal-bars .skills-sections h3 {
   font-size: 32px;
   font-family: "LinetoBlack";
   margin-bottom: 25px;
+  margin-top: 10px;
+}
+.latest-work .horizontal-bars .skills-sections p {
+  line-height: 20px;
+}
+.latest-work .horizontal-bars .skills-sections .design-tools {
+  margin: 20px 0 10px 0px;
+  font-size: 18px;
+  font-family: linetomedium;
+  color: #7510F7;
+  font-size: 16px;
 }
 .latest-work .horizontal-bars .skills-sections .stack ul {
   list-style: none;
@@ -821,6 +848,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 .latest-work .horizontal-bars .skills-sections .stack ul li:hover::before {
   transform: scaleX(1) translateY(10px);
+}
+.latest-work .horizontal-bars .skills-sections .service-stack {
+  padding-left: 27px;
+}
+.latest-work .horizontal-bars .skills-sections .service-stack li {
+  line-height: 24px;
 }
 .latest-work .work-grid {
   display: flex;
@@ -1308,6 +1341,9 @@ footer .footer-content .footer-right a.be img {
     margin-bottom: 40px;
   }
 
+  .skills-stack {
+    border-radius: 0px;
+  }
   .skills-stack .latest-head {
     margin-bottom: 0px;
     margin-top: 0px;
@@ -1317,23 +1353,43 @@ footer .footer-content .footer-right a.be img {
     margin-top: 0px;
   }
   .skills-stack .latest-work .horizontal-bars {
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr;
   }
   .skills-stack .latest-work .horizontal-bars .skills-sections {
     text-align: center;
-    width: 100%;
+    width: calc(100% - 40px);
     border-bottom: 1px solid #eee;
-    margin-top: 20px;
+    margin-bottom: 0px;
   }
   .skills-stack .latest-work .horizontal-bars .skills-sections:first-child {
     margin-top: 10px;
   }
   .skills-stack .latest-work .horizontal-bars .skills-sections:last-child {
-    margin-bottom: 0;
-    border-bottom: unset;
+    margin-bottom: 20px;
   }
   .skills-stack .latest-work .horizontal-bars .skills-sections:last-child .stack ul li {
     margin-bottom: 0px;
+  }
+  .skills-stack .latest-work .horizontal-bars .skills-sections .service-stack {
+    list-style: none;
+    padding: 0px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .skills-stack .latest-work .horizontal-bars .skills-sections .service-stack li {
+    position: relative;
+    margin-right: 8px;
+  }
+  .skills-stack .latest-work .horizontal-bars .skills-sections .service-stack li::after {
+    content: ",";
+    position: absolute;
+    bottom: 0;
+    right: -4px;
+  }
+  .skills-stack .latest-work .horizontal-bars .skills-sections .service-stack li:last-child::after {
+    display: none;
   }
   .skills-stack .latest-work .horizontal-bars .skills-sections .stack {
     text-align: center;
