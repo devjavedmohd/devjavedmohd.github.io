@@ -1,0 +1,90 @@
+.whatido {
+    .latest-head {
+        text-transform: uppercase;
+        color: #0089ff;
+        font-size: 12px;
+        letter-spacing: 1px;
+        margin-bottom: 15px;
+        width: 100%;
+        margin-top: 100px;
+
+        &h2 {
+            border-bottom: 1px dotted #0089ff;
+            width: auto;
+            font-size: 12px;
+            display: inline;
+            letter-spacing: 1px;
+        }
+    }
+
+    .latest-work {
+        padding: 0;
+
+        h3 {
+            font-size: 32px;
+            margin-bottom: 15px;
+            line-height: 34px;
+        }
+
+        .what-i-do {
+
+            .what-i-do-info {
+                display: flex;
+                margin-bottom: 100px;
+
+                .what-i-do-info-art {
+                    padding: 25px;
+                    margin-top: 25px;
+                    margin-right: 25px;
+                    width: calc(100% - 75px);
+
+                    img {
+                        max-width: 100%;
+                    }
+                }
+
+                p {
+                    font-size: 20px;
+                    line-height: 24px;
+                    max-width: 480px;
+                    padding-right: 25px;
+                }
+
+                .info-cards-wrapper {
+                    max-width: calc(100% - 480px);
+                    width: 100%;
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    grid-gap: 15px;
+
+                    .info-cards {
+                        background-color: #fff;
+                        padding: 20px;
+                        text-align: center;
+                        border-radius: 6px;
+
+                        .info-cards-title {
+                            font-size: 20px;
+                            line-height: 1.25;
+                            margin-bottom: 20px;
+                        }
+
+                        .info-icon-img {
+                            margin-top: 30px;
+                            margin-bottom: 30px;
+
+                            img {
+                                max-width: 80px;
+                            }
+                        }
+
+                        .info-desc {
+                            font-size: 18px;
+                            line-height: 24px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

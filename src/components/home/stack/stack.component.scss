@@ -1,0 +1,112 @@
+.skills-stack {
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 50px 0px;
+
+    .latest-head {
+        color: #0089ff;
+        font-size: 12px;
+        letter-spacing: 1px;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .latest-work {
+        margin-top: 0px;
+
+        .horizontal-bars {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-gap: 30px;
+
+            .skills-sections {
+                padding: 20px;
+                border: 1px solid #eee;
+                border-radius: 6px;
+                margin-bottom: 30px;
+                transition: all .5s ease-in-out;
+                color: #333;
+
+                &:hover {
+                    box-shadow: 0px 4px 9px 2px rgb(0 0 0 / 5%);
+                    transform: translateY(-10px);
+                }
+
+                h3 {
+                    font-size: 32px;
+                    margin-bottom: 25px;
+                    margin-top: 10px;
+                }
+
+                p {
+                    line-height: 20px;
+                }
+
+                .design-tools {
+                    margin: 20px 0 10px 0px;
+                    font-size: 18px;
+                    color: #7510F7;
+                    font-size: 16px;
+                }
+
+                .stack {
+                    ul {
+                        list-style: none;
+                        display: flex;
+                        justify-content: flex-start;
+                        align-items: center;
+
+                        li {
+                            transition: transform 0.4s ease-out 0s;
+                            position: relative;
+
+                            img {
+                                height: 32px;
+                                margin: 0 10px 0 0;
+                                opacity: .7;
+                                transition: all .2s ease-in-out;
+
+                                &:hover {
+                                    opacity: 1;
+                                }
+                            }
+
+                            &:hover {
+                                transform: translateY(-10px);
+                            }
+
+                            &:before {
+                                position: absolute;
+                                content: "";
+                                display: block;
+                                width: calc(100% - 10px);
+                                left: 0px;
+                                bottom: 0px;
+                                height: 1px;
+                                background: rgb(3, 3, 3);
+                                transform: scaleX(0);
+                                transform-origin: center center;
+                                transition: transform 0.4s ease-out 0s;
+                            }
+
+                            &:hover::before {
+                                transform: scaleX(1) translateY(10px);
+                            }
+                        }
+                    }
+                }
+
+                .service-stack {
+                    padding-left: 27px;
+
+                    li {
+                        line-height: 24px;
+                    }
+                }
+            }
+        }
+        .bottom-note {
+            line-height: 24px;
+        }
+    }
+}
