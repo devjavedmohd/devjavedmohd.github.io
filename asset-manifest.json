@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e4b02efd.css",
+    "main.js": "/static/js/main.4d26211f.js",
+    "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
+    "static/media/android-chrome-512x512.png": "/static/media/android-chrome-512x512.53c34c721c90075e9412.png",
+    "static/media/msi.png": "/static/media/msi.e70600065fa7418ec8c6.png",
+    "static/media/rc.png": "/static/media/rc.b366e138f3294a56436c.png",
+    "static/media/dev.svg": "/static/media/dev.cb34b8eb4d4788726d55bfe1c08ddce9.svg",
+    "static/media/sys.png": "/static/media/sys.6b59dda33f2dd6d63a9a.png",
+    "static/media/design-main.svg": "/static/media/design-main.938fa592a27f5ff7e465241bc0405675.svg",
+    "static/media/logo-new.svg": "/static/media/logo-new.b32e69d5d3f409b58584174f2629e363.svg",
+    "static/media/zinnia.jfif": "/static/media/zinnia.c65c0e80ece11d6df988.jfif",
+    "static/media/vikram.jfif": "/static/media/vikram.21dad081295cf5b5b08c.jfif",
+    "static/media/student.svg": "/static/media/student.d4493b14d7f8e95550a8a781ce6d1c23.svg",
+    "static/media/school.svg": "/static/media/school.0d89c3c3b4bf89a145a611d683a8de24.svg",
+    "static/media/development.svg": "/static/media/development.3d81f64db0d1d7c398545427bf235892.svg",
+    "static/media/communication.svg": "/static/media/communication.e2bc34549de74050018362a636470d7e.svg",
+    "static/media/websites.svg": "/static/media/websites.56c17857dbbe2ff0fadf7bce1f01ce39.svg",
+    "static/media/design-concept.svg": "/static/media/design-concept.5776348faa4d349a0bf2aec27d110de3.svg",
+    "static/media/frontend.svg": "/static/media/frontend.b73bf4a2b1d94d5867eb91c85071bf58.svg",
+    "static/media/psd-html.svg": "/static/media/psd-html.e34aa7b686f2fac6c1e8f416fd327ad2.svg",
+    "static/media/branding.svg": "/static/media/branding.18db82668b3bdefb22cd6261055455e5.svg",
+    "static/media/mobile-app.svg": "/static/media/mobile-app.96fcbd0ef13e0c46005c33d24e37c4c9.svg",
+    "static/media/designer.svg": "/static/media/designer.d495980cb366f9f9fb958265fd13e851.svg",
+    "static/media/responsive.svg": "/static/media/responsive.2ad6edfee22ccefc91a8b910f7bba67f.svg",
+    "static/media/mobile-web.svg": "/static/media/mobile-web.22bcde1fee19af2d53e374d03384baf9.svg",
+    "static/media/logo.svg": "/static/media/logo.832f5965c996d7c46c622a6953b24b07.svg",
+    "static/media/learning.svg": "/static/media/learning.d8f5198425db2a8238b210eb5014708b.svg",
+    "index.html": "/index.html",
+    "static/media/be.svg": "/static/media/be.ea9d67ee7f78abad69d24118bdcb0140.svg",
+    "static/media/email.svg": "/static/media/email.cd90c2c9cdc6fb53c6ea04bf8764ebf2.svg",
+    "static/media/in.svg": "/static/media/in.bef92462519a489ea2b663cac9c26b28.svg",
+    "static/media/phone.svg": "/static/media/phone.3cfd4e236341d154b1ed0f8fa9d05f99.svg",
+    "main.e4b02efd.css.map": "/static/css/main.e4b02efd.css.map",
+    "main.4d26211f.js.map": "/static/js/main.4d26211f.js.map",
+    "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e4b02efd.css",
+    "static/js/main.4d26211f.js"
+  ]
+}
