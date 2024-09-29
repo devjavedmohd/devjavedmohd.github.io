@@ -160,7 +160,6 @@
 
         .connect {
             display: flex;
-            margin-top: 50px;
 
             .connect-about {
                 background: var(--btnblue);
@@ -186,6 +185,14 @@
                 background: transparent;
                 color: #333;
             }
+        }
+    }
+}
+
+.dark-mode {
+    .about-more {
+        span {
+            color: #fff !important;
         }
     }
 }

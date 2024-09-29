@@ -10,7 +10,7 @@ const Stack = () => {
         <section className="skills-stack">
             <div className="container" data-aos="fade-up" data-aos-offset="20" data-aos-delay="30" data-aos-duration="1000"
                 data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
-                <h2 className="text-lg mb-7 uppercase text-violet-600">Skills Stack</h2>
+                <h2 className="text-lg mb-7 uppercase text-violet-600 md:text-left text-center">Skills Stack</h2>
                 <article className="latest-work">
                     <h3 className="none">Design</h3>
                     <div className="horizontal-bars mb-10">
@@ -65,7 +65,7 @@ const Stack = () => {
                             </ul>
                         </div>
                     </div>
-                    <p className="bottom-note text-xl" data-aos="fade-up" data-aos-offset="20" data-aos-delay="40" data-aos-duration="1500" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
+                    <p className="bottom-note text-lg md:text-xl" data-aos="fade-up" data-aos-offset="20" data-aos-delay="40" data-aos-duration="1500" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
                         Highly motivated Software Engineer (Front End) with a solid foundation in web development and a growing passion for data science. I’m eager to apply my skills in JavaScript, Vue.js, React.js, HTML, CSS, Python, and SQL to create impactful user experiences and contribute to building robust data-driven solutions. I’ve successfully led projects that enhance customer value and elevate product quality, particularly through UI/UX design and development in the e-commerce sector.
                     </p>
                 </article>

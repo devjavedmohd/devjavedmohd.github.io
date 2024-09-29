@@ -4,7 +4,9 @@
   letter-spacing: 1px;
   margin-bottom: 15px;
   width: 100%;
-  margin-top: 100px;
+  @media (max-width: 768px) {
+    margin-top: 100px;
+  }
 }
 
 .latest-work {
@@ -12,7 +14,6 @@
 
   h3 {
     font-size: 32px;
-    margin-bottom: 15px;
     line-height: 34px;
   }
 
@@ -26,6 +27,16 @@
 
       .work-screens {
         width: 330px;
+        @media (max-width: 768px) {
+          width: 100%;
+          max-height: 300px;
+          height: auto;
+          margin-bottom: 15px;
+        }
+        height: 330px;
+        overflow: hidden;
+        position: relative;
+        border-radius: 7px;
         img {
           width: 100%;
           border-radius: 7px;
@@ -35,7 +46,6 @@
       .work-type {
         display: none;
         text-align: left;
-        border-radius: 6px;
         transition: all 0.5s ease-out;
 
         .number {
@@ -44,9 +54,15 @@
           line-height: 1;
           margin-bottom: 10px;
         }
+        .logo {
+          height: 48px;
+        }
 
         .left-head-title {
           height: calc(100% - 62px);
+          @media (max-width: 768px) {
+            height: auto;
+          }
           position: relative;
 
           .about-project-title {
@@ -63,8 +79,6 @@
             }
 
             .my-role {
-              font-size: 14px;
-              line-height: 18px;
               display: inline-block;
             }
 
@@ -78,18 +92,21 @@
           }
 
           a {
-            background: var(--btnblue);
-            color: #fff;
             text-decoration: none;
             padding: 16px 20px;
             font-size: 18px;
             cursor: pointer;
             display: inline-block;
-            border-radius: 6px;
-            border: 2px solid transparent;
-            position: absolute;
-            bottom: 10px;
-            right: 0;
+            border-radius: 10px;
+            border: 2px solid var(--btnblue);
+            background: var(--white);
+            color: var(--btnblue);
+            transition: all 0.3s ease, transform 0.3s ease;
+            &:hover {
+              background: var(--btnblue);
+              color: #fff;
+              transform: scale(1.05);
+            }
           }
         }
       }
@@ -97,10 +114,14 @@
       .work-type {
         display: block;
         width: calc(100% - 330px);
+        @media (max-width: 768px) {
+          width: 100%;
+          margin: 0px;
+          height: auto;
+        }
         height: 100%;
         z-index: 3;
         background-color: #fff;
-        padding: 15px;
         text-align: left;
         background-position: left bottom;
       }
@@ -113,8 +134,12 @@
     background: #fff;
     padding: 30px 20px;
     border-radius: 10px;
+    img {
+      height: 54px;
+    }
     li {
       transition: all 0.5s ease-in-out;
+      width: 170px;
       &:hover {
         transform: translateY(-5px);
       }

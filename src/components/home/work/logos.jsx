@@ -3,14 +3,11 @@ import alameda from '../../../assets/images/branding/alameda.svg';
 import asap from '../../../assets/images/branding/asap.svg';
 import byp from '../../../assets/images/branding/byp.svg';
 import caregiver from '../../../assets/images/branding/caregiver.svg';
-import chosn from '../../../assets/images/branding/chosn.svg';
 import collabr from '../../../assets/images/branding/collabr.svg';
 import eatme from '../../../assets/images/branding/eatme.svg';
 import electroRepair from '../../../assets/images/branding/electro-repair.svg';
 import ETL from '../../../assets/images/branding/ETL.svg';
 import fantastic from '../../../assets/images/branding/fantastic.svg';
-import FoodTruckz from '../../../assets/images/branding/FoodTruckz.svg';
-import Group from '../../../assets/images/branding/Group.svg';
 import GyftHint from '../../../assets/images/branding/GyftHint.svg';
 import Havafix from '../../../assets/images/branding/Havafix.svg';
 import hissbox from '../../../assets/images/branding/hissbox.svg';
@@ -31,27 +28,28 @@ import thrutime from '../../../assets/images/branding/thrutime.svg';
 import urbanvie from '../../../assets/images/branding/urbanvie.svg';
 import vcepro from '../../../assets/images/branding/vcepro.svg';
 import zipshop from '../../../assets/images/branding/zipshop.svg';
+import rcLogo from '../../../assets/images/rc-logo.svg';
+import briBooks from '../../../assets/images/branding/bribooks.svg';
 
 import './work.component.scss';
 
 const logos = () => {
     return (
         <article className="latest-work mb-10">
-            <h3 className="left-head-title">Logo Design</h3>
+            <h3 className="left-head-title mb-7 md:mb-7">Logo Design</h3>
             <ul className='flex flex-wrap branding-wrap'>
+                <li className='border border-gray-200 bg-gray-50 p-3 flex items-center justify-center rounded'><img src={rcLogo} alt='Rare Carat Inc.' /></li>
+                <li className='border border-gray-200 bg-gray-50 p-3 flex items-center justify-center rounded'><img src={briBooks} alt='Bri Books' /></li>
                 <li className='border border-gray-200 bg-gray-50 p-3 flex items-center justify-center rounded'><img src={aepiphany} alt='aepiphany' /></li>
                 <li className='border border-gray-200 bg-gray-50 p-3 flex items-center justify-center rounded'><img src={alameda} alt="alameda" /></li>
                 <li className='border border-gray-200 bg-gray-50 p-3 flex items-center justify-center rounded'><img src={asap} alt="asap" /></li>
                 <li className='border border-gray-200 bg-gray-50 p-3 flex items-center justify-center rounded'><img src={byp} alt="byp" /></li>
                 <li className='border border-gray-200 bg-gray-50 p-3 flex items-center justify-center rounded'><img src={caregiver} alt="caregiver" /></li>
-                <li className='border border-gray-200 bg-gray-50 p-3 flex items-center justify-center rounded'><img src={chosn} alt="chosn" /></li>
                 <li className='border border-gray-200 bg-gray-50 p-3 flex items-center justify-center rounded'><img src={collabr} alt="collabr" /></li>
                 <li className='border border-gray-200 bg-gray-50 p-3 flex items-center justify-center rounded'><img src={eatme} alt="eatme" /></li>
                 <li className='border border-gray-200 bg-gray-50 p-3 flex items-center justify-center rounded'><img src={electroRepair} alt="electroRepair" /></li>
                 <li className='border border-gray-200 bg-gray-50 p-3 flex items-center justify-center rounded'><img src={ETL} alt="ETL" /></li>
                 <li className='border border-gray-200 bg-gray-50 p-3 flex items-center justify-center rounded'><img src={fantastic} alt="fantastic" /></li>
-                <li className='border border-gray-200 bg-gray-50 p-3 flex items-center justify-center rounded'><img src={FoodTruckz} alt="FoodTruckz" /></li>
-                <li className='border border-gray-200 bg-gray-50 p-3 flex items-center justify-center rounded'><img src={Group} alt="Group" /></li>
                 <li className='border border-gray-200 bg-gray-50 p-3 flex items-center justify-center rounded'><img src={GyftHint} alt="GyftHint" /></li>
                 <li className='border border-gray-200 bg-gray-50 p-3 flex items-center justify-center rounded'><img src={Havafix} alt="Havafix" /></li>
                 <li className='border border-gray-200 bg-gray-50 p-3 flex items-center justify-center rounded'><img src={hissbox} alt="hissbox" /></li>

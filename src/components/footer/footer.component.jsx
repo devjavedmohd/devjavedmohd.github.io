@@ -7,12 +7,12 @@ import behance from '../../assets/images/be.svg';
 import logo from '../../assets/images/logo.svg';
 
 import './footer.component.scss';
-import ContactUs from '../contact/contact.component';
+// import ContactUs from '../contact/contact.component';
 
 const Footer = () => {
     return (
         <footer>
-            <ContactUs />
+            {/* <ContactUs /> */}
             <div className="container">
                 <div className="footer-content">
                     <div className="footer-left">Want to work with me?</div>
@@ -38,7 +38,7 @@ const Footer = () => {
                 </div>
                 <div className="footer-brand none">
                     <div className="footer-brand-in">
-                        <img src={logo} alt="Mohammad Javed" />
+                        <img src={logo} alt="Mohd Javed" />
                     </div>
                 </div>
             </div>
