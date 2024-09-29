@@ -172,7 +172,7 @@ const LatestWork = () => {
                             <aside className="work-screens flex items-start"><img src={primeux} alt="Rare Carat" className="img-resp" /></aside>
                             <article className="work-type md:ml-8 flex items-center">
                                 <div className='flex flex-wrap justify-start border-b border-gray md:mb-4 mb-7'>
-                                    <h4 className="number mr-6">05: <span className='text-3xl text-blue-700'>PrimeUX.us</span></h4>
+                                    <h4 className="number mr-6">05 <span className='text-3xl text-blue-700'>PrimeUX.us</span></h4>
                                 </div>
                                 <div className="left-head-title">
                                     <div className="about-project-title">
