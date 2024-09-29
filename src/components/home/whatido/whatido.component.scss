@@ -70,6 +70,11 @@
                         }
 
                         .info-icon-img {
+                            margin-top: 30px;
+                            margin-bottom: 30px;
+                            display: flex;
+                            justify-content: center;
+
                             img {
                                 max-width: 54px;
                                 margin: 0 auto;
@@ -80,49 +85,6 @@
                             font-size: 18px;
                             line-height: 24px;
                         }
-                    }
-                }
-                &.dev {
-                    .info-cards-wrapper {
-                        grid-gap: 25px;
-                        max-width: 100%;
-                        width: 100%;
-                        overflow: hidden;
-                        .info-cards {
-                            padding: 0px;
-                            border-radius: 10px;
-                            overflow: hidden;
-                        }
-                        .info-cards-img{
-                            height: 270px;
-                            overflow: hidden;
-                            display: flex;
-                            flex-direction: column;
-                            justify-content: center;
-                        }
-                        .info-cards-content{
-                            margin: 0px;
-                        }
-                        .info-icon-img {
-                            position: relative;
-                            background: white;
-                            display: inline-block;
-                            padding: 10px;
-                            border-radius: 5px;
-                            z-index: 1;
-                            img {
-                                width: 54px;
-                            }
-                        }
-                        .info-cards-title,
-                        p {
-                            position: relative;
-                            z-index: 1;
-                        }
-                    }
-                    p {
-                        max-width: 100%;
-                        padding-bottom: 25px;
                     }
                 }
             }
