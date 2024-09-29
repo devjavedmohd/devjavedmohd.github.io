@@ -14,9 +14,9 @@ const Recommendation = () => {
                     <div className="rec-item">
                         <div className="rec-caption">
                             <div className="rec-comment">
-                                <h6>Mohammad Javed is one of the greatest among all people I have ever worked with. He
+                                <h6>Mohd Javed is one of the greatest among all people I have ever worked with. He
                                     is very thorough in everything he does and can be depended upon to get the job done.
-                                    Mohd. Javed leads by example and many people at Millennium Softwares find his
+                                    Javed leads by example and many people at Millennium Softwares find his
                                     enthusiasm and dedication both inspiring and motivating. He is ready to deal with
                                     difficult situations and solve problems on time. He always takes care of the job.
                                     Javed always maintains very good relations with co-workers and clients. He

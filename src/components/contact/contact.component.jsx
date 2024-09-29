@@ -1,19 +1,7 @@
-// import { useState } from "react";
 import { useForm, ValidationError } from '@formspree/react';
 
 
 const ContactUs = () => {
-
-    // const [name, setName] = useState('Name');
-    // const [email, setEmail] = useState('Email');
-    // const [text, setText] = useState('Text');
-
-    // const onSubmit = (event) => {
-    //     event.preventDefault();
-    //     setName(event.target[0].value);
-    //     setEmail(event.target[1].value);
-    //     setText(event.target[2].value);
-    // }
     const [state, handleSubmit] = useForm("manwnjwy");
     if (state.succeeded) {
         return <p>Thanks for joining!</p>;
@@ -37,7 +25,6 @@ const ContactUs = () => {
                     </div>
                 </section>
             </form>
-            {/* <div className="text-white">{`${name} ${email} ${text}`}</div> */}
         </div>
     );
 };

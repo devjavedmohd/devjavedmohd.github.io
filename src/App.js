@@ -19,14 +19,12 @@ const App = () => {
 
   return (
     <Router>
-      <div>
-        <Navigation />
-        <Routes>
-          <Route path="/" element={<HomeComponent />} />
-          <Route path="/about" element={<AboutComponent />} />
-        </Routes>
-        <Footer />
-      </div>
+      <Navigation />
+      <Routes>
+        <Route path="/" element={<HomeComponent />} />
+        <Route path="/about" element={<AboutComponent />} />
+      </Routes>
+      <Footer />
     </Router>
   )
 }

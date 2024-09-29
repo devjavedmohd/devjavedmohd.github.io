@@ -20,7 +20,6 @@
 
 body {
     background-image: linear-gradient(to right, var(--lightblue), var(--lightpink));
-    font-family: LinetoBook;
 }
 
 .times {
@@ -356,7 +355,6 @@ img.icon-50 {
     fill: #484848;
 }
 
-/*comman font size*/
 .font-8 {
     font-size: 8px;
 }
@@ -553,28 +551,6 @@ img.icon-50 {
 
 .line-height-40 {
     line-height: 40px;
-}
-
-/*--------------*/
-/*----Font Style-------*/
-.font-light {
-    font-family: linetoLight;
-}
-
-.font-book {
-    font-family: linetoBook;
-}
-
-.font-medium {
-    font-family: linetoMedium;
-}
-
-.font-bold {
-    font-family: linetoBold;
-}
-
-.font-black {
-    font-family: linetoBlack;
 }
 
 /*--------------*/

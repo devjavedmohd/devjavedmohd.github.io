@@ -3,27 +3,26 @@ import './hero.component.scss'
 
 const About = () => {
     return (
-        <div className="container about-content">
-            <div className="about-details">
-                <div className="title"><span>Welcome I'm,</span> Mohammad Javed</div>
-                <div className="about-exp">
-                    <h1>Developing digital products, brands, and user experience</h1>
+        <div className='hero-bg'>
+            <div className="container about-content">
+                <div className="about-details">
+                    <div className="title"><span className='text-gray-600'>Welcome I'm,</span> Mohd Javed</div>
+                    <div className="about-exp">
+                        <h1 className='text-3xl'>I craft digital experiences that merge innovation with design.</h1>
+                    </div>
+                    <div className="about-more text-2xl">
+                        <span className='text-gray-600'>As a <span className='text-gray-700 text-3xl'>Product Designer</span> and <span className='text-gray-700 text-3xl'>Front End Developer</span> based in Egham, United Kingdom, I specialize in creating seamless user interfaces and memorable brands. My expertise spans <span className='text-gray-700 text-3xl'>UI/UX Design, Responsive Web Design, Cross-Browser Compatibility, </span> and <span className='text-gray-700 text-3xl'>Front-End Development.</span></span>
+                    </div>
+                    <div className="connect">
+                        <p className='text-gray-500 text-xl'>I’m passionate about transforming ideas into reality and always eager to collaborate on exciting projects. If you’re looking to create something remarkable, <a className="text-blue-600 underline" href="mailto:dev.javedmohd@gmail.com">let's connect!</a></p>
+                    </div>
                 </div>
-                <div className="about-more">
-                    <span>a Product Designer and Front End Developer in Gurgaon.</span>
-                    <span>I specialize in UI/UX design, Responsive Web Design, Adaptive Design, Cross Browser Design and
-                        Front End Development. I’m always available for interesting collaborations and fun side
-                        projects. If you would like to work together, feel free to get in touch.</span>
+                <div className="pic-about">
+                    <div className="one-bg"></div>
+                    <div className="two-bg"></div>
+                    <div className="three-bg"></div>
+                    <div className="pic"><img src={profilePic} alt="Mohd Javed" /> </div>
                 </div>
-                <div className="connect">
-                    <a className="connect-about" href="mailto:dev.javedmohd@gmail.com">Connect with Me</a>
-                </div>
-            </div>
-            <div className="pic-about">
-                <div className="one-bg"></div>
-                <div className="two-bg"></div>
-                <div className="three-bg"></div>
-                <div className="pic"><img src={profilePic} alt="Mohammad Javed" /> </div>
             </div>
         </div>
     )

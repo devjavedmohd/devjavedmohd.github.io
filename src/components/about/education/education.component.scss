@@ -42,7 +42,7 @@ $tag: #E91E63;
 }
 
 .section-five {
-    background: #f7f7f7;
+    background: linear-gradient(180deg, #ffffff 0.57%, rgba(255, 255, 255, 0.970736) 60.7%, rgba(255, 255, 255, 0.97) 70.1%, rgba(255, 255, 255, 0.86) 93.26%), linear-gradient(90deg, #00beff 8.78%, #ffdc18 53.8%, #ff3278 97.3%);
 
     .educational-set {
         @include wrapper;

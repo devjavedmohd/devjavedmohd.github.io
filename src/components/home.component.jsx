@@ -6,13 +6,13 @@ import Recommendation from './home/recommendations/recommendations.component';
 
 const HomeComponent = () => {
     return (
-        <div>
+        <>
             <Hero />
             <WhatIDo />
             <Stack />
             <LatestWork />
             <Recommendation />
-        </div>
+        </>
     )
 }
 
