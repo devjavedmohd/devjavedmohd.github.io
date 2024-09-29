@@ -92,7 +92,7 @@ h6 {
       .about-more {
         text-align: center;
         span {
-          color: #111827
+          color: #111827;
         }
       }
 
@@ -473,5 +473,10 @@ h6 {
   }
   .experience {
     background: #333;
+  }
+  .connect {
+    p {
+      color: #fff;
+    }
   }
 }
