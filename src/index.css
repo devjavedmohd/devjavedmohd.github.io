@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.pointed {
+    position: fixed;
+    width: 10px !important;
+    height: 10px !important;
+    left: -5px;
+    top: -5px;
+    border-radius: 12px;
+    opacity: 1;
+    background: linear-gradient(190.05deg, #98e8fc -16.32%, #1fa9ff 56.32%, #8980f6 115.25%);
+    transform: translate(-50%, -50%);
+    z-index: 2100;
+    pointer-events: none;
+    transition: opacity .2s, transform .2s;
+}
+.dark-mode .pointed {
+    background: linear-gradient(190.05deg, #f5fdff -16.32%, #e4f5ff 56.32%, #f9f9ff 115.25%);
+}
+
+@media (max-width:768px) {
+    .pointed {
+        display: none;
+    }
+}
+/* The circular hover effect */
+button::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    background: rgba(255, 255, 255, 0.3); /* The circle's color */
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    transition: width 0.4s ease, height 0.4s ease;
+    z-index: -1; /* Ensure it stays behind the button text */
+  }
+
+  button.hover-effect::before {
+    width: 300%;
+    height: 300%;
+  }
+
+  :root {
+    --background-color: white;
+    --text-color: black;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dark-mode {
+    --background-color: black;
+    --text-color: white;
+}
+
+.theme-toggle {
+    background: none;
+    border: none;
+    color: inherit;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+.theme-toggle:hover {
+    opacity: 0.7;
+}
+
+.theme-icon {
+    width: 32px;
+    height: 32px;
+}

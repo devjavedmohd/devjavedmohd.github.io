@@ -1,0 +1,24 @@
+.myself {
+    &.about-content {
+        display: flex;
+        flex-wrap: wrap;
+
+        .pic-about {
+            height: 400px;
+            width: 100%;
+        }
+
+        .about-details {
+            max-width: 600px;
+            width: 100%;
+            margin: 0px auto;
+            padding: 0px;
+            text-align: center;
+            .bottom-space {
+                display: inline-block;
+                line-height: 30px;
+            }
+        }
+    }
+}
+

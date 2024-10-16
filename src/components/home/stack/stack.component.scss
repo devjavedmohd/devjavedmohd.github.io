@@ -1,0 +1,94 @@
+.skills-stack {
+  background: linear-gradient(180deg, #ffffff 0.57%, rgba(255, 255, 255, 0.970736) 60.7%, rgba(255, 255, 255, 0.97) 70.1%, rgba(255, 255, 255, 0.86) 93.26%),
+  linear-gradient(90deg, #00beff 8.78%, #ffdc18 53.8%, #ff3278 97.3%);
+  padding: 50px 0px;
+
+  .latest-work {
+    margin-top: 0px;
+
+    .horizontal-bars {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 30px;
+
+      .skills-sections {
+        padding: 20px;
+        border-radius: 10px;
+        transition: all 0.5s ease-in-out;
+        color: #333;
+
+        &:hover {
+          box-shadow: 0px 4px 9px 2px rgb(0 0 0 / 5%);
+          transform: translateY(-10px);
+        }
+
+        h3 {
+          font-size: 32px;
+          color: #7510f7;
+        }
+        .design-tools {
+          margin: 20px 0 10px 0px;
+          color: #7510f7;
+        }
+
+        .stack {
+          ul {
+            list-style: none;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+
+            li {
+              transition: transform 0.4s ease-out 0s;
+              position: relative;
+
+              img {
+                height: 32px;
+                margin: 0 10px 0 0;
+                opacity: 0.7;
+                transition: all 0.2s ease-in-out;
+
+                &:hover {
+                  opacity: 1;
+                }
+              }
+
+              &:hover {
+                transform: translateY(-10px);
+              }
+
+              &:before {
+                position: absolute;
+                content: "";
+                display: block;
+                width: calc(100% - 10px);
+                left: 0px;
+                bottom: 0px;
+                height: 1px;
+                background: rgb(3, 3, 3);
+                transform: scaleX(0);
+                transform-origin: center center;
+                transition: transform 0.4s ease-out 0s;
+              }
+
+              &:hover::before {
+                transform: scaleX(1) translateY(10px);
+              }
+            }
+          }
+        }
+
+        .service-stack {
+          padding-left: 0;
+
+          li {
+            line-height: 24px;
+          }
+        }
+      }
+    }
+    .bottom-note {
+      line-height: 24px;
+    }
+  }
+}
